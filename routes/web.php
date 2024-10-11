@@ -13,3 +13,15 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/info', function () {
+    return view('info');
+});
